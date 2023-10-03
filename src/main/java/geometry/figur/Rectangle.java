@@ -1,4 +1,6 @@
-package geometry;
+package geometry.figur;
+
+import geometry.figur.Figur;
 
 public class Rectangle extends Figur {
 

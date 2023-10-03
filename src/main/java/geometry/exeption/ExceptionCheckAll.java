@@ -1,4 +1,7 @@
-package geometry;
+package geometry.exeption;
+
+import geometry.exeption.NullPointer;
+import geometry.figur.Figur;
 
 public class ExceptionCheckAll {
 

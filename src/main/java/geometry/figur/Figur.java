@@ -1,4 +1,4 @@
-package geometry;
+package geometry.figur;
 
 public abstract class Figur {
 

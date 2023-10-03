@@ -1,9 +1,15 @@
-package geometry;
+package geometry.calculation;
 
+
+import geometry.exeption.NullPointer;
+import geometry.figur.Circle;
+import geometry.figur.Rectangle;
+import geometry.figur.Square;
+import geometry.figur.Triangle;
 
 import java.util.Scanner;
 
-import static geometry.ExceptionCheckAll.nullPointerAll;
+import static geometry.exeption.ExceptionCheckAll.nullPointerAll;
 
 public class Calculation {
 

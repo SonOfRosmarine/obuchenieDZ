@@ -1,4 +1,4 @@
-package geometry;
+package geometry.exeption;
 
 public class NullPointer extends RuntimeException {
     public NullPointer(String message) {
