@@ -17,7 +17,9 @@ public class Apple extends Fruits {
         System.out.println("Сколько килограмм ?");
         double enter = sc.nextDouble();
         cost = priceWeekday * enter;
-        System.out.println(cost);
+        double scale = Math.pow(10, 2);
+        double finalResult = Math.ceil(cost * scale) / scale;
+        System.out.println(finalResult);
     }
 
     @Override
@@ -30,7 +32,9 @@ public class Apple extends Fruits {
         System.out.println("Сколько килограмм ?");
         double enter = sc.nextDouble();
         cost = priceWeekend * enter;
-        System.out.println(cost);
+        double scale = Math.pow(10, 2);
+        double finalResult = Math.ceil(cost * scale) / scale;
+        System.out.println(finalResult);
 
     }
 }
