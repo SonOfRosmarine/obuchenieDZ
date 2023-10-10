@@ -21,7 +21,7 @@ public static void priceOfValue () {
     weekend.add("Суббота");
     weekend.add("Воскресенье");
 
-    fruit.add("Banana");
+    fruit.add("Бананы");
     fruit.add("Апельсины");
     fruit.add("Яблоки");
     fruit.add("Грейпфрукты");
